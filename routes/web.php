@@ -31,3 +31,6 @@ Route::get('/contact', function () {
 Route::get('/tag', function () {
     return view('website.tag');
 });
+Route::get('/dashboard', function () {
+    return view('admin.adminHome');
+});
